@@ -1,0 +1,183 @@
+*{
+    margin:0;
+    padding:0;
+}
+.logo{
+    width:100px;
+}
+.header-container{
+    background-image: url(image/header2.jpg);
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    padding:20px;
+    
+    
+}
+.service{
+    display:flex;
+    color:white;
+}
+.item{
+    margin-left: 15px;
+    padding:10px;
+    font-size: 16px;
+    cursor:pointer;
+}
+.item:hover{
+    color:red;
+}
+.headerpara{
+    font-size:18px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    color:rgb(202, 126, 34)
+}
+.headerhead{
+    font-size:50px;
+    font-weight: bold;
+}
+.banner-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height:90vh;
+    background-image: url(image/header2.jpg);
+    color:white;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.btn{
+    border:none;
+    padding:10px 22px;
+    background-color: red;
+    color:white;
+    border-radius:5px;
+
+}
+
+.security5{
+    width:80px;
+}
+.security-img{
+    
+    background-color: antiquewhite;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 20px;
+}
+.servicehead{
+    text-align: center;
+}
+.servicepara{
+    text-align: center;
+}
+
+.box-container{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.box{
+
+    width:200px;
+    height: 200px;
+    box-shadow: 4px 4px 8px grey;
+    color:white;
+    padding:15px;
+    text-align: center;
+}
+.boxpara{
+    color:black;
+}
+.boxhead{
+    color:black;
+}
+
+.box-container1{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+}
+.box1{
+
+    width:200px;
+    height: 200px;
+    box-shadow: 4px 4px 8px grey;
+    color:white;
+    padding:15px;
+    text-align: center;
+}
+.boxpara1{
+    color:black;
+}
+.boxhead1{
+    color:black;
+}
+.service-icon{
+    width:50px;
+}
+.service-icon1{
+    width:50px;
+}
+.servicepara{
+    color:rgb(218, 19, 19)
+}
+.hire-us{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.hire{
+    border:none;
+    padding:10px 22px;
+    background-color: red;
+    color:white;
+    border-radius:5px;
+    
+}
+.writting{
+    margin-top:50px;
+}
+.footer-container{
+    background-color: black;
+    width:100%;
+    height:60vh;
+    padding:50px;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    padding:20px;
+}
+.footer-logo{
+    width:80px;
+}
+.footerpara{
+    color:white;
+}
+.logo{
+    color:white;
+}
+.service{
+    color:white;
+    font-size:20px;
+}
+.useful-links{
+    color:white;
+    font-size:20px;
+}
+.contact{
+    color:white;
+    font-size:20px;
+}
+.support{
+    color:white;
+    font-size:20px;
+}
